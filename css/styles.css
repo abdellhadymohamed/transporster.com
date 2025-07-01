@@ -10980,3 +10980,36 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+body {
+  background-color: #f8f9fa; /* Soft light gray background */
+  color: #212529;            /* Dark gray text for contrast */
+}
+
+.navbar, .footer, footer {
+  background-color: #fff;
+  color: #212529;
+  border-bottom: 1px solid #eee;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #212529;
+}
+
+.btn-primary, .btn.btn-primary {
+  background-color: #f4623a;
+  border: none;
+  color: #fff;
+}
+
+.btn-primary:hover, .btn.btn-primary:hover {
+  background-color: #d14c23;
+}
+
+.card, .page-section {
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(33, 37, 41, 0.05);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
