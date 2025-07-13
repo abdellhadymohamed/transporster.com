@@ -10926,14 +10926,14 @@ hr.divider-light {
   }
 }
 
-header.masthead::before {
-  content: "";
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);  /* too dark */
-  z-index: 1;
+header.masthead .container {
+  background: transparent;        /* Remove any dark background */
+  max-width: 800px;               /* Limit content width */
+  padding: 2rem 1rem;             /* Less vertical and horizontal space */
+  margin: 0 auto;                 /* Center it */
+  z-index: 2;
+  position: relative;
+  text-align: center;
 }
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
