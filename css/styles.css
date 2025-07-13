@@ -11024,3 +11024,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: 2rem;
   margin-bottom: 2rem;
 }
+section,
+.container,
+.row,
+.col,
+.card,
+.form-control {
+  background-color: #0F0F0F !important;
+  color: #ffffff !important;
+  border-color: #444 !important;
+}
