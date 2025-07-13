@@ -11034,3 +11034,43 @@ section,
   color: #ffffff !important;
   border-color: #444 !important;
 }
+body {
+  background-color: #0F0F0F;
+  color: #ffffff;
+}
+
+.card,
+.form-control,
+.form-select {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border: 1px solid #444;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #bbb;
+}
+
+.btn-primary {
+  background-color: #D4AF37;
+  border-color: #D4AF37;
+  color: #000;
+}
+
+.btn-primary:hover {
+  background-color: #f5d75c;
+  border-color: #f5d75c;
+}
+
+.btn-light {
+  background-color: #ffffff;
+  color: #000;
+  border: none;
+}
+
+.btn-success {
+  background-color: #25D366;
+  border: none;
+}
+
