@@ -11074,3 +11074,38 @@ textarea::placeholder {
   border: none;
 }
 
+/* === Custom Navbar Styling for Dark Theme === */
+
+/* Navbar container background */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+}
+
+/* Navbar brand/logo */
+.navbar .navbar-brand {
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+/* Nav links */
+.navbar .nav-link {
+  color: #f0f0f0 !important;
+  transition: color 0.3s ease;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #D4AF37 !important; /* gold hover */
+}
+
+/* "Book Now" button */
+.navbar .btn-primary {
+  background-color: #D4AF37 !important;
+  color: #000 !important;
+  border: none;
+  border-radius: 25px;
+  padding: 8px 24px;
+}
+.navbar .btn-primary:hover {
+  background-color: #f5cf5d !important;
+  color: #000 !important;
+}
