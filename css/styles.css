@@ -11089,3 +11089,11 @@ textarea::placeholder {
   background-color: #f5cf5d !important;
   color: #000 !important;
 }
+.hero-box {
+  background-color: rgba(0, 0, 0, 0.6); /* only slightly dark */
+  border-radius: 10px;
+  z-index: 2;
+}
+.hero-box h1, .hero-box p {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
