@@ -125,17 +125,23 @@
           <div class="col-12 col-md-6 col-lg-3 mt-4 mt-lg-0">
             <label for="vehicle" class="label-style text-capitalize form-label text-white">Vehicle type</label>
             <div class="input-group date">
-              <select class="form-select form-control p-3" id="vehicle" aria-label="Default select example"
-                style="background-image: none">
-                <option selected>Select Vehicle Type</option>
-                <option value="1">BMW x3</option>
-                <option value="2">BMW M2</option>
-                <option value="3">Ford explorer</option>
-                <option value="4">Ferrari</option>
-                <option value="5">Mercedes-Benz</option>
-                <option value="6">Sports car</option>
-                <option value="7">Tesla</option>
-              </select>
+              <select class="form-select" name="vehicle-type" required>
+  <option value="" disabled selected>Select Vehicle Type</option>
+
+  <optgroup label="Luxury">
+    <option value="v-class">V-Class</option>
+    <option value="e-class">E-Class</option>
+    <option value="s-class">S-Class</option>
+    <option value="range-rover">Range Rover</option>
+    <option value="land-cruiser">Land Cruiser</option>
+  </optgroup>
+
+  <optgroup label="Standard">
+    <option value="nissan-sunny">Nissan Sunny</option>
+    <option value="toyota-corolla">Toyota Corolla</option>
+  </optgroup>
+</select>
+
               <span class="search-icon-position position-absolute p-3">
                 <iconify-icon class="search-icons" icon="solar:bus-outline"></iconify-icon>
               </span>
