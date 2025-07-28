@@ -826,3 +826,7 @@ cars page style start
   font-size: 0.95rem;
   color: #666 !important;
 }
+
+select.form-select {
+  height: 50px;
+}
