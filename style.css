@@ -837,3 +837,9 @@ cars page style start
   border-radius: 6px;
 }
 
+.search-block .form-select {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  line-height: 1.5;
+  vertical-align: middle;
+}
