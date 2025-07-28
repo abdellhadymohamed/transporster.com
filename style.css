@@ -843,3 +843,16 @@ cars page style start
   line-height: 1.25;
   height: 50px !important;
 }
+
+#process .col-md-6 {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+  transition: transform 0.3s ease;
+}
+
+#process .col-md-6:hover {
+  transform: translateY(-3px);
+}
+
