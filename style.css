@@ -856,3 +856,13 @@ cars page style start
   transform: translateY(-3px);
 }
 
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.card-body {
+  background-color: #fff;
+  border-radius: 0 0 8px 8px;
+}
