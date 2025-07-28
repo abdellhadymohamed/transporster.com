@@ -827,6 +827,7 @@ cars page style start
   color: #666 !important;
 }
 
-select.form-select {
-  height: 60px;
+.input-group > .form-select {
+  width: 100%;
+  height: 50px;
 }
