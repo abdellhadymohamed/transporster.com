@@ -340,3 +340,20 @@ AOS.init({
   }); // End of a document
 
 })(jQuery);
+
+
+function showSedansIfEgypt(country) {
+  const sedansTab = document.getElementById("sedans-tab");
+  const sedanItems = document.querySelectorAll('.item.sedans.egypt-only');
+
+  if (country === "egypt") {
+    sedansTab.style.display = "inline-block";
+    sedanItems.forEach(item => item.style.display = "block");
+  } else {
+    sedansTab.style.display = "none";
+    sedanItems.forEach(item => item.style.display = "none");
+  }
+}
+
+// Example usage
+showSedansIfEgypt("egypt"); // or "uk"
