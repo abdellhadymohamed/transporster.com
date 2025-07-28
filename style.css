@@ -802,3 +802,27 @@ cars page style start
 .rental-list{
   color: var(--secondary-color);
 }
+
+
+#process .col-md-6 {
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  padding: 20px;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+#process .col-md-6:hover {
+  background-color: #e6e6e6;
+}
+
+#process p.fw-bold {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  color: #111;
+}
+
+#process .text-secondary {
+  font-size: 0.95rem;
+  color: #666 !important;
+}
