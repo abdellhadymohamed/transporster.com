@@ -161,25 +161,24 @@
       <input type="text" class="form-control" id="return-date" placeholder="MM/DD/YYYY">
     </div>
 
-    <!-- Trip Type -->
-    <div class="col-md-2">
-      <label class="form-label text-white d-block">Trip Type</label>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="tripType" id="roundTrip" value="round" checked>
-        <label class="form-check-label text-white" for="roundTrip">Round</label>
-      </div>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="tripType" id="oneWay" value="one-way">
-        <label class="form-check-label text-white" for="oneWay">One Way</label>
-      </div>
+   <!-- Trip Type -->
+<div class="col-12 col-md-6 col-lg-4 mt-3">
+  <label class="form-label text-white d-block">Trip Type</label>
+  <div class="d-flex align-items-center gap-4">
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="tripType" id="roundTrip" value="round" checked>
+      <label class="form-check-label text-white" for="roundTrip">Round</label>
     </div>
-
-    <!-- Submit Button -->
-    <div class="col-12">
-      <button type="submit" class="btn btn-primary w-100 mt-3">Find Your Car</button>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="tripType" id="oneWay" value="one-way">
+      <label class="form-check-label text-white" for="oneWay">One Way</label>
     </div>
+  </div>
+</div>
 
-  </form>
+<!-- Submit Button -->
+<div class="col-12">
+  <button type="submit" class="btn btn-primary w-100 mt-3">Find Your Car</button>
 </div>
 
   <!-- process section start  -->
