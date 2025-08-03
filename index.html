@@ -138,28 +138,47 @@
 
   <!-- Pickup Location -->
   <div class="col-12 col-md-6 col-lg-3 mt-4 mt-lg-0">
-    <label for="pickup-location" class="label-style form-label text-white">Pick-up Location</label>
+    <label for="pickup-location" class="label-style form-label text-white">Pick-Up Location</label>
     <input type="text" class="form-control p-3" id="pickup-location" placeholder="Airport or anywhere">
   </div>
 
   <!-- Drop-off Location -->
   <div class="col-12 col-md-6 col-lg-3 mt-4 mt-lg-0">
-    <label for="dropoff-location" class="label-style form-label text-white">Drop-off Location</label>
+    <label for="dropoff-location" class="label-style form-label text-white">Drop-Off Location</label>
     <input type="text" class="form-control p-3" id="dropoff-location" placeholder="Optional or same as pickup">
   </div>
 
   <!-- Trip Type -->
   <div class="col-12 col-md-6 col-lg-3 mt-4 mt-lg-0">
     <label class="label-style form-label text-white d-block">Trip Type</label>
-    <div class="form-check f
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="tripType" id="roundTrip" value="round" checked>
+      <label class="form-check-label text-white" for="roundTrip">Round Trip</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="tripType" id="oneWay" value="one-way">
+      <label class="form-check-label text-white" for="oneWay">One Way</label>
+    </div>
+  </div>
 
+  <!-- Pick-Up Date -->
+  <div class="col-md-6 col-lg-6 mt-4">
+    <label for="pickup-date" class="label-style form-label text-white">Pick-Up Date</label>
+    <input type="text" class="form-control p-3" id="pickup-date" placeholder="MM/DD/YYYY">
+  </div>
 
-        <div class="d-grid gap-2 mt-4">
-          <button class="btn btn-primary" type="button">Find your car</button>
-        </div>
-      </div>
-    </section>
-  </section>
+  <!-- Return Date -->
+  <div class="col-md-6 col-lg-6 mt-4" id="return-date-container">
+    <label for="return-date" class="label-style form-label text-white">Return Date</label>
+    <input type="text" class="form-control p-3" id="return-date" placeholder="MM/DD/YYYY">
+  </div>
+
+  <!-- Submit Button -->
+  <div class="col-12 mt-4">
+    <button class="btn btn-primary w-100" type="submit">Find Your Car</button>
+  </div>
+</form>
+
   <!-- process section start  -->
   <section id="process" class="padding-small">
   <div class="process-content container">
