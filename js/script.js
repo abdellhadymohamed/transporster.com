@@ -355,5 +355,22 @@ function showSedansIfEgypt(country) {
   }
 }
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const oneWay = document.getElementById("oneWay");
+    const roundTrip = document.getElementById("roundTrip");
+    const returnContainer = document.getElementById("return-date-container");
+
+    oneWay.addEventListener("change", () => {
+      returnContainer.style.display = "none";
+    });
+
+    roundTrip.addEventListener("change", () => {
+      returnContainer.style.display = "block";
+    });
+  });
+</script>
+
+
 // Example usage
 showSedansIfEgypt("egypt"); // or "uk"
